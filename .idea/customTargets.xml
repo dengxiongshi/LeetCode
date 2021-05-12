@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CLionExternalBuildManager">
+    <target id="1f24d1a5-adfa-446e-8fd3-c5f539d7f3a7" name="win10" defaultType="TOOL">
+      <configuration id="80ddd8b6-2168-4422-abcb-d683711b3ae4" name="win10">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_build_with_make" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_clean_with_make" />
+        </clean>
+      </configuration>
+    </target>
+  </component>
+</project>

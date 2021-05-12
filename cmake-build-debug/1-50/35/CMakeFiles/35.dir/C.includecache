@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/e/Cwork/LeetCode/1-50/35/array.c
+array.h
+/mnt/e/Cwork/LeetCode/1-50/35/array.h
+assert.h
+-
+stdbool.h
+-
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+tools/stack.h
+/mnt/e/Cwork/LeetCode/1-50/35/tools/stack.h
+
+/mnt/e/Cwork/LeetCode/1-50/35/array.h
+
+/mnt/e/Cwork/LeetCode/1-50/35/tools/stack.h
+string.h
+-
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cwork/LeetCode/13/13_1.c
+stdio.h
+-
+string.h
+-
+../str/str.h
+E:/Cwork/LeetCode/str/str.h
+
+E:/Cwork/LeetCode/str/str.h
+

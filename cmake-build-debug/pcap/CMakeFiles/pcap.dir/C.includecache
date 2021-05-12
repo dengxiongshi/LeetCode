@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Cwork/LeetCode/pcap/pcap.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+time.h
+-
+winsock2.h
+-
+ws2tcpip.h
+-
+winsock.h
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/26.dir/26.c.o  -o 26 

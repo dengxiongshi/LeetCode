@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/35.dir/array.c.o CMakeFiles/35.dir/tools/stack.c.o CMakeFiles/35.dir/35.c.o  -o 35 

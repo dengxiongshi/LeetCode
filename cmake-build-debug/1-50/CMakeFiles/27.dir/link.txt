@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/27.dir/27/27.c.o  -o 27 

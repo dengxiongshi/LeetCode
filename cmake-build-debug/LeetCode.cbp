@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LeetCode"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\1-50\;CMake Files\1-50\21\;CMake Files\1-50\26\;CMake Files\1-50\27\;CMake Files\1-50\35\;CMake Files\91\;CMake Files\pcap\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="363">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/363" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 363"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="363/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/363" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 363/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/t" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 t"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="t/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/t" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 t/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LeetCode/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/LeetCode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 LeetCode/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="makeJpegCmd">
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 makeJpegCmd"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/21/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 21"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="21/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/21" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/21/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 21/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/21/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="26">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/26/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 26"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="26/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/26" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/26/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 26/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/26/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="27">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/27/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 27"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="27/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/27" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/27/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 27/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/27/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="35">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/35" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/35/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 35"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="35/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/35" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/."/>
+					<Add directory="/mnt/e/Cwork/LeetCode/1-50/35/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 35/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/1-50/35/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="91">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/91/91" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/91"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/91/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 91"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="91/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/91/91" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/91"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/91/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 91/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/91/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcap_test">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/pcap_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/pcap/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 pcap_test"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcap_test/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/pcap_test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/pcap/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 pcap_test/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcap">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/pcap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/pcap/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 pcap"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pcap/fast">
+				<Option output="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/pcap" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/e/Cwork/LeetCode/pcap/."/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 pcap/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/mnt/e/Cwork/LeetCode/cmake-build-debug/pcap/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/21/21.c">
+			<Option target="21"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/26/26.c">
+			<Option target="26"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/27/27.c">
+			<Option target="27"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/35/35.c">
+			<Option target="35"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/35/array.c">
+			<Option target="35"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/35/array.h">
+			<Option target="35"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/35/test.h">
+			<Option target="35"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/35/tools/stack.c">
+			<Option target="35"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/35/tools/stack.h">
+			<Option target="35"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/363/363.c">
+			<Option target="363"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/91/91.c">
+			<Option target="91"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/main.c">
+			<Option target="LeetCode"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/pcap/pcap.c">
+			<Option target="pcap"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/pcap/pcap_test.c">
+			<Option target="pcap_test"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/t.c">
+			<Option target="t"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/test.c">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1-50\"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/21/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1-50\21\"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/26/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1-50\26\"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/27/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1-50\27\"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/1-50/35/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\1-50\35\"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/91/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\91\"/>
+		</Unit>
+		<Unit filename="/mnt/e/Cwork/LeetCode/pcap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pcap\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

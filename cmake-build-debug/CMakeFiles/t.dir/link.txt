@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/t.dir/t.c.o  -o t 
