@@ -11,5 +11,15 @@
         </clean>
       </configuration>
     </target>
+    <target id="7862b2d8-65ee-4748-af55-0799611382ad" name="Custom Make All Target" defaultType="TOOL">
+      <configuration id="18841c22-690f-4622-8fa2-42de6d5eb734" name="Custom Make All Target">
+        <build type="TOOL">
+          <tool actionId="Tool_External Tools_build_with_make" />
+        </build>
+        <clean type="TOOL">
+          <tool actionId="Tool_External Tools_clean_with_make" />
+        </clean>
+      </configuration>
+    </target>
   </component>
 </project>
