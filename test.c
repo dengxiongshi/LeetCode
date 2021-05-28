@@ -2,7 +2,6 @@
 
 extern int count;
 
-void write(void)
-{
+void write(void) {
     printf("count is %d\n", count);
 }
